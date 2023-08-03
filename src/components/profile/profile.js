@@ -1,35 +1,34 @@
 import React from 'react';
 import { Img, UserName, Container, PositionItem, ActivePage, Description, UserTag, UserLocation, } from './profile.styled'
 
-
 export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
-    <div class="profile">
+    <div className="profile">
       <Container>
-  <Description class="description">
+  <Description className="description">
     <Img
       src={avatar}
       alt="User avatar"
-      class="avatar"
+      className="avatar"
     />
-    <UserName class="name">{username}</UserName>
-    <UserTag class="tag">@{tag}</UserTag>
-    <UserLocation  class="location">{location}</UserLocation >
+    <UserName className="name">{username}</UserName>
+    <UserTag className="tag">@{tag}</UserTag>
+    <UserLocation className="location">{location}</UserLocation >
   </Description>
 
 
-<PositionItem class="stats">
+<PositionItem className="stats">
     <ActivePage>
-      <span class="label">Followers</span>
-      <span class="quantity">{stats.followers}</span>
+      <span className="label">Followers</span>
+      <span className="quantity">{stats.followers}</span>
     </ActivePage>
     <ActivePage>
-      <span class="label">Views</span>
-      <span class="quantity">{stats.views}</span>
+      <span className="label">Views</span>
+      <span className="quantity">{stats.views}</span>
     </ActivePage>
     <ActivePage>
-      <span class="label">Likes</span>
-      <span class="quantity">{stats.likes}</span>
+      <span className="label">Likes</span>
+      <span className="quantity">{stats.likes}</span>
     </ActivePage>
   </PositionItem>
   

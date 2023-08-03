@@ -4,18 +4,20 @@ export const Container = styled.div`
     max-width: 360px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    
+    margin-bottom: 20px;  
 `;
 
 export const Description = styled.div`
     display: flex;
     flex-direction: column;
+    border: 1px solid lightgrey;
 `;
 
 export const Img = styled.img `
-    width: 100%;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 50%;
     object-fit: cover;
 `;
@@ -66,5 +68,6 @@ export const ActivePage = styled.li`
     font-family: Droid Sans;
     font-weight: normal;
     font-size: 20px;
+    background-color: #f4f0f0;
     color: rgb(223, 87, 89);
 `

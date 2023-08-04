@@ -41,6 +41,7 @@ export const FriendName = styled.p`
     font-family: Droid Sans;
     font-weight: normal;
     font-size: 20px;
+    letter-spacing: 1.2;
     color: rgb(223, 87, 89);
     padding-left: 15px;
 `;

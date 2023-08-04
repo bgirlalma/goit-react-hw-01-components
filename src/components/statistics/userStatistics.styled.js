@@ -14,6 +14,7 @@ export const Title = styled.h2`
     font-family: Droid Sans;
     font-weight: bold;
     font-size: 30px;
+    letter-spacing: 1.3;
     color: #9D50BB;
     display: flex;
     justify-content: center;
@@ -33,12 +34,15 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 border: 1px solid lightgrey;
+  background-color: ${({ bgColor }) => bgColor || 'transparent'};
+
 padding: 10px;
 width: 100%;
 
 font-family: Droid Sans;
 font-weight: normal;
 font-size: 20px;
+letter-spacing: 1.2;
 color: #f4f0f0;
 `;
 

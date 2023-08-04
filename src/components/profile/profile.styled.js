@@ -26,6 +26,7 @@ export const UserName = styled.p`
     font-family: Droid Sans;
     font-weight: bold;
     font-size: 30px;
+    letter-spacing: 1.3;
     color: #9D50BB;
     display: flex;
     justify-content: center;
@@ -37,6 +38,7 @@ export const UserTag = styled.p`
     font-family: Droid Sans;
     font-weight: bold;
     font-size: 20px;
+    letter-spacing: 1.2;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
@@ -46,6 +48,7 @@ export const UserLocation = styled.p`
     font-family: Droid Sans;
     font-weight: bold;
     font-size: 20px;
+    letter-spacing: 1.2;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
@@ -68,6 +71,7 @@ export const ActivePage = styled.li`
     font-family: Droid Sans;
     font-weight: normal;
     font-size: 20px;
+    letter-spacing: 1.2;
     background-color: #f4f0f0;
     color: rgb(223, 87, 89);
 `

@@ -1,8 +1,12 @@
 import { GlobalStyle } from "./GlobalStyled";
 import { Profile } from "./profile/profile";
-import { Statistics } from "./statistics/userStatistics";
 import user from './user.json';
+
+import { Statistics } from "./statistics/userStatistics";
 import data from './data.json';
+
+import { FriendList } from "./friendList/friendList";
+import friends from './friends.json'
 
 export const App = () => {
  return (
@@ -14,6 +18,7 @@ export const App = () => {
     stats={user.stats}
     />
     <Statistics data = {data}/>
+    <FriendList friends = {friends}/>
     <GlobalStyle/>
   </div>
  )

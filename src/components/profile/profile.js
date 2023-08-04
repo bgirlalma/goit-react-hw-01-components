@@ -1,4 +1,3 @@
-import React from 'react';
 import { Img, UserName, Container, PositionItem, ActivePage, Description, UserTag, UserLocation, } from './profile.styled'
 
 export const Profile = ({ username, tag, location, avatar, stats }) => {

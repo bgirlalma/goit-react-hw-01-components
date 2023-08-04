@@ -5,6 +5,7 @@ export const StatisticsUser = styled.div`
     margin-left: auto;
     margin-right: auto; 
     border: 1px solid lightgrey;
+    margin-bottom: 20px;
 `;
 
 export const Title = styled.h2`

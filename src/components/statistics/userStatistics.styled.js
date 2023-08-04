@@ -1,11 +1,13 @@
 import styled from 'styled-components';
 
 export const StatisticsUser = styled.div`
+    margin: 0;
     max-width: 360px;
     margin-left: auto;
     margin-right: auto; 
     border: 1px solid lightgrey;
     margin-bottom: 20px;
+
 `;
 
 export const Title = styled.h2`
@@ -20,11 +22,12 @@ export const Title = styled.h2`
 `;
 
 export const StatList = styled.ul`
+    margin: 0;
     display: flex;
-   
 `;
 
 export const Item = styled.li`
+margin: 0;
 display: flex;
 flex-direction: column;
 justify-content: center;

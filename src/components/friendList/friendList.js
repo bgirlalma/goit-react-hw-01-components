@@ -1,4 +1,5 @@
-import { Wrapper,ItemList, } from './friendList.styled'
+import { Wrapper,ItemList,OnlineStatus, OfflineStatus, UserFriendAvatar, FriendName} from './friendList.styled'
+import {LiaLightbulbSolid} from "react-icons/lia";
 
 export const FriendList = ({friends}) => {
     return (
@@ -6,9 +7,18 @@ export const FriendList = ({friends}) => {
     <Wrapper>
         {friends.map(({id, avatar, name, isOnline, }) => (
     <ItemList className="item" key={id}>
-        <span className="status">{isOnline}</span>
-        <img className="avatar" src={avatar} alt="User avatar" width="48" />
-        <p className="name">{name}</p>
+       {isOnline ? (
+              <OnlineStatus className="status" status="online">
+               <LiaLightbulbSolid size={23}/>
+              </OnlineStatus>
+            ) : (
+              <OfflineStatus className="status" status="offline">
+                <LiaLightbulbSolid size={23}/>
+              </OfflineStatus>
+        )}
+        
+        <UserFriendAvatar className="avatar" src={avatar} alt="User avatar" width="90" />
+        <FriendName className="name">{name}</FriendName>
     </ItemList>
         ))} 
     </Wrapper>

@@ -8,6 +8,9 @@ import data from './data.json';
 import { FriendList } from "./friendList/friendList";
 import friends from './friends.json'
 
+import { TransactionHistory } from "./transactionHistory/transactionHistory";
+import transition from './transactions.json'
+
 export const App = () => {
  return (
   <div>
@@ -19,6 +22,7 @@ export const App = () => {
     />
     <Statistics data = {data}/>
     <FriendList friends = {friends}/>
+    <TransactionHistory items = {transition}/>
     <GlobalStyle/>
   </div>
  )

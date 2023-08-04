@@ -28,21 +28,21 @@ export const StatList = styled.ul`
 `;
 
 export const Item = styled.li`
-margin: 0;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-border: 1px solid lightgrey;
-  background-color: ${({ bgColor }) => bgColor || 'transparent'};
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgrey;
+    background-color: ${({ bgColor }) => bgColor || 'transparent'};
 
-padding: 10px;
-width: 100%;
+    padding: 10px;
+    width: 100%;
 
-font-family: Droid Sans;
-font-weight: normal;
-font-size: 20px;
-letter-spacing: 1.2;
-color: #f4f0f0;
+    font-family: Droid Sans;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 1.2;
+    color: #f4f0f0;
 `;
 

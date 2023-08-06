@@ -34,7 +34,7 @@ export const Item = styled.li`
     justify-content: center;
     align-items: center;
     border: 1px solid lightgrey;
-    background-color: ${({ bgColor }) => bgColor || 'transparent'};
+    background-color: ${({ bgсolor }) => bgсolor || 'transparent'};
 
     padding: 10px;
     width: 100%;
